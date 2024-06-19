@@ -1,0 +1,72 @@
+.standardCalculatorDiv {
+  display: flex;
+  width: 20vw;
+  justify-content: center;
+  margin: 3vw auto;
+  padding: 1vw;
+  border-radius: 20px;
+  box-shadow: -10px -10px 20px #c7cfeb, 10px 10px 20px #ffffff;
+}
+
+.standardCalculatorDiv table tr td {
+  font-size: 1vw;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 10px 10px 20px #c7cfeb, -10px -10px 20px #ffffff;
+  width: 4vw;
+  height: 4vw;
+}
+.standardCalculatorDiv table tr:nth-child(1) td {
+  padding: 0.5vw;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: right;
+}
+.standardCalculatorDiv table tr td:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 20px #ffffff, 10px 10px -20px #e3e7f4;
+}
+
+
+@media screen and (max-width:720px){
+  .standardCalculatorDiv{
+    display: flex;
+      width: 50vw;
+      justify-content: center;
+      margin: 6vw auto;
+      padding: 1vw;
+      border-radius: 20px;
+      box-shadow: -10px -10px 20px #c7cfeb, 10px 10px 20px #ffffff;
+  }
+    .standardCalculatorDiv table tr td {
+      font-size: 5vw;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 10px 10px 20px #c7cfeb, -10px -10px 20px #ffffff;
+      width: 12vw;
+      height: 12vw;
+    }
+}
+
+
+@media screen and (min-width:721px) and (max-width:1080px) {
+  .standardCalculatorDiv {
+    display: flex;
+    width: 40vw;
+    justify-content: center;
+    margin: 3vw auto;
+    padding: 1vw;
+    border-radius: 20px;
+    box-shadow: -10px -10px 20px #c7cfeb, 10px 10px 20px #ffffff;
+  }
+
+  .standardCalculatorDiv table tr td {
+    font-size: 3vw;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 20px #c7cfeb, -10px -10px 20px #ffffff;
+    width: 8vw;
+    height: 8vw;
+  }
+}

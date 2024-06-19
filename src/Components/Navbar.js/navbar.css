@@ -1,0 +1,47 @@
+.navbarDiv {
+  background-color: darkblue;
+  padding: 0.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 1vw;
+}
+
+.navbarDiv select {
+  color: white;
+  padding: 1vw;
+  background-color: transparent;
+  border: none;
+  padding: 0 1vw 0 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+.navbarDiv select option {
+  color: black;
+  font-size: 1vw;
+  border-radius: 15px;
+  margin: 50px;
+}
+
+@media screen and (max-width:720px) {
+  .navbarDiv {
+      background-color: darkblue;
+      padding: 5vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      font-size: 3vw;
+    }
+}
+
+@media screen and (min-width:721px) and (max-width:1080px) {
+  .navbarDiv {
+    font-size: 2vw;
+  }
+}
