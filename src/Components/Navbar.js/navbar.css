@@ -28,20 +28,32 @@
   margin: 50px;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width: 720px) {
   .navbarDiv {
-      background-color: darkblue;
-      padding: 5vw;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      color: white;
-      font-size: 3vw;
-    }
+    background-color: darkblue;
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 3vw;
+  }
+  .navbarDiv select option {
+    color: black;
+    font-size: 3vw;
+    border-radius: 15px;
+    margin: 50px;
+  }
 }
 
-@media screen and (min-width:721px) and (max-width:1080px) {
+@media screen and (min-width: 721px) and (max-width: 1080px) {
   .navbarDiv {
     font-size: 2vw;
+  }
+  .navbarDiv select option {
+    color: black;
+    font-size: 3vw;
+    border-radius: 15px;
+    margin: 50px;
   }
 }
